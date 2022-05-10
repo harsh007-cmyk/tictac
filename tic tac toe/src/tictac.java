@@ -152,6 +152,7 @@ public class tictac {
 						bt10.setEnabled(false);
 					}
 					btn10flag=false;
+					checkWinner();
 				}
 				
 			}
@@ -172,8 +173,9 @@ public class tictac {
 						bt11.setLabel("X");
 						bt11.setEnabled(false);
 					}
-					checkWinner();
+					
 					btn11flag=false;
+					checkWinner();
 				}
 				
 			}
@@ -194,8 +196,9 @@ public class tictac {
 						bt12.setLabel("X");
 						bt12.setEnabled(false);
 					}
-					checkWinner();
+					
 				    btn12flag=false;
+					checkWinner();
 				}
 				
 			}
@@ -217,8 +220,9 @@ public class tictac {
 						bt20.setLabel("X");
 						bt20.setEnabled(false);
 					}
-					checkWinner();
+					
 					btn20flag=false;
+					checkWinner();
 				}
 				
 			
@@ -242,8 +246,9 @@ public class tictac {
 						bt21.setLabel("X");
 						bt21.setEnabled(false);
 					}
-					checkWinner();
+					
 					btn21flag=false;
+					checkWinner();
 				}
 				
 			}
@@ -264,8 +269,9 @@ public class tictac {
 						bt22.setLabel("X");
 						bt22.setEnabled(false);
 					}
-					checkWinner();
+					
 					btn22flag=false;
+					checkWinner();
 				}
 				
 			}
